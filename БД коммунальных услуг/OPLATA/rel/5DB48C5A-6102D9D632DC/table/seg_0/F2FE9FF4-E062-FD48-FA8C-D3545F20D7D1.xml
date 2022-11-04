@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="F2FE9FF4-E062-FD48-FA8C-D3545F20D7D1" directorySegmentName="seg_0" name="Monthly_invoice">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+   <generatorID>5475A88C-DB91-0AF6-E8AA-FCD7B16ACB71</generatorID>
+   <ownerDesignName>OPLATA</ownerDesignName>
+   <pkName>Monthly_invoice_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Account_code" id="90BB5D58-2879-FEF8-D718-95E5C522C9F6">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>6920F620-93B9-4A04-5C6F-E00B583716DD</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Apartment_code" id="09702F18-4FF3-E61A-3DD8-D2F96069C26C">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>33F6CE4A-488B-1419-53FC-323D7CED335C</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>82B5941F-AF3D-9AE9-70EE-AC14EFFFB90C</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="38F5B34A-F123-0CBC-1D74-72FA3F4601EF" referredColumn="82B5941F-AF3D-9AE9-70EE-AC14EFFFB90C"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Date" id="1728F11C-A022-80AD-68C3-F66DFB6BF4EC">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>D107978C-B663-3E8F-15D5-F79EB9782981</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Total" id="73EB522E-2C7A-64F6-5DF4-AA0EE55B9CD5">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>63F5BDDF-EF34-3A28-752D-80C6182BEAB9</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="12D8C298-BACA-5057-0955-5263D8E65CF7" name="Monthly_invoice_PK">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>58E182C2-AAED-8DBD-C62F-BA1DCF71E23C</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="90BB5D58-2879-FEF8-D718-95E5C522C9F6"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="1464F152-6134-C8AB-4BC6-1045E2AA4FAF" name="Relation_2">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>6AFCC4BB-3EA1-7C58-F0EB-079D922DAD85</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="09702F18-4FF3-E61A-3DD8-D2F96069C26C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

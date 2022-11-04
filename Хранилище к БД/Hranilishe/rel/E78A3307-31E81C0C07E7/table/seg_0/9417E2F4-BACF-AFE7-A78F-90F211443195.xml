@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="9417E2F4-BACF-AFE7-A78F-90F211443195" directorySegmentName="seg_0" name="Service_history">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+   <generatorID>578959C3-5F40-C63E-876A-865026644B75</generatorID>
+   <ownerDesignName>Hranilishe</ownerDesignName>
+   <pkName>Service_history_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SH_Row_Cose" id="69E94F4F-54B7-FDC2-8593-4F0621C5ACE6">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>2B2D7BA7-6B41-03BF-02C8-8B8D4E600469</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Code_flat_history" id="668F42B8-5A95-205D-5956-E2A069084980">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>7CCB88BE-3AC5-8A72-DEE2-F8FF50FA49E3</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>E6CE56FD-F01A-7A7E-960A-41902A5C5F9C</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="1887743D-60E8-0C20-DFFA-28421FA043E2" referredColumn="E6CE56FD-F01A-7A7E-960A-41902A5C5F9C"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Row_Code_Price_history" id="04F83DF9-8A52-6167-6694-BEDEC895DD08">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>D17650C1-1C72-9440-C119-4AF0D55B9FDB</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <delegate>ED9B9996-5ABC-7D3C-C954-FC1DA79B4A53</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="050C0094-ED4F-3F2B-8CBF-2E22F49C2B38" referredColumn="ED9B9996-5ABC-7D3C-C954-FC1DA79B4A53"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Current_meter_readings" id="AC7697FD-1681-7E0D-B581-1662CB472F52">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>42CF25F4-3628-87E1-5296-E5FA6EFED325</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>3</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Data" id="3E5BEB60-0B89-D51D-E5D2-9A07866E3E40">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>EB13CBF5-AE91-49C2-7FF4-9BB7378A4D0E</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Cost" id="52A79FBD-EA07-0319-D272-11BEE040FD3F">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>D03AF499-AAEA-6BE3-7D2E-3A0EF5D9971C</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>3</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C3827070-C33D-AD66-DE63-049F91AA1A01" name="Service_history_PK">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>9DAC9AC6-8341-DF6E-D86C-4BBDADBD063B</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="69E94F4F-54B7-FDC2-8593-4F0621C5ACE6"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="BA1BFC42-B077-C0A3-BBD4-2F8195F82C46" name="Relation_10">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>E9605958-DD7B-04D5-0176-87C574951DD5</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="668F42B8-5A95-205D-5956-E2A069084980"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="4AF89E66-6470-BD4D-7275-65F49FB3F05B" name="Relation_11">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>1DBAD907-B1BE-6566-CC29-68D8FEDECD27</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="04F83DF9-8A52-6167-6694-BEDEC895DD08"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

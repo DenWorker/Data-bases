@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="15AD0BE6-7882-1DF2-C5E8-5626949E5831" name="Apartment_HRAN" seqName="seg_0"/>
+   <object objectType="Table" objectID="A3B249F7-856F-A74D-FAAE-4F9DA056FA27" name="Flat_history" seqName="seg_0"/>
+   <object objectType="Table" objectID="08DCFD87-013B-4502-CE5B-653701DCD29E" name="Price_history" seqName="seg_0"/>
+   <object objectType="Table" objectID="9417E2F4-BACF-AFE7-A78F-90F211443195" name="Service_history" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1887743D-60E8-0C20-DFFA-28421FA043E2" name="Relation_10" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="050C0094-ED4F-3F2B-8CBF-2E22F49C2B38" name="Relation_11" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="47139461-BD8A-62BE-D4AE-657796D68E9F" name="Relation_4" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

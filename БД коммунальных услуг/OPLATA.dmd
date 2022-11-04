@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="OPLATA" id="75DDEF89-CD14-003E-FBFE-4A544733C28E" version="3.4">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-03-16 19:58:30 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-03-16 20:07:36 UTC</changedTime>
+   <ownerDesignName>OPLATA</ownerDesignName>
+   <capitalNames>false</capitalNames>
+   <designId>75DDEF89-CD14-003E-FBFE-4A544733C28E</designId>
+</OSDM_Design>

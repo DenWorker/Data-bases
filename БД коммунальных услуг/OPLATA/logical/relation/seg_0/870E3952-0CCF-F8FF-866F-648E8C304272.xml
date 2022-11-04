@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" id="870E3952-0CCF-F8FF-866F-648E8C304272" directorySegmentName="seg_0">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-10-01 05:05:49 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-01 05:28:25 UTC</changedTime>
+   <ownerDesignName>OPLATA</ownerDesignName>
+   <identifying>false</identifying>
+   <optionalSource>true</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>5475A88C-DB91-0AF6-E8AA-FCD7B16ACB71</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>F207781D-F0E2-144B-910F-4393DE46F945</targetEntity>
+   <transferable>true</transferable>
+</Relation>

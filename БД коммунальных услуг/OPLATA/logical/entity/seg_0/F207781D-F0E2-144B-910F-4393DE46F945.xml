@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="F207781D-F0E2-144B-910F-4393DE46F945" directorySegmentName="seg_0" name="Cheque">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-03-16 20:21:33 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-02 05:57:49 UTC</changedTime>
+   <ownerDesignName>OPLATA</ownerDesignName>
+   <pkName>Чек_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Cheque_code" id="B4336FD0-3D5D-F28E-0936-39E858601991">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-16 20:21:41 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:57:49 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>7</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Account_code" id="628D5B3F-9B27-0E7A-C8D1-B4ABE5BFEC77">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-01 05:28:25 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-01 05:28:25 UTC</changedTime>
+         <generatorID>870E3952-0CCF-F8FF-866F-648E8C304272</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>6920F620-93B9-4A04-5C6F-E00B583716DD</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Apartment_code" id="15090610-055B-2BFD-FD0A-81D9FF4B5806">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-22 07:37:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 08:49:52 UTC</changedTime>
+         <generatorID>8C2604AF-7263-120D-4064-528A33B98895</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>521D9986-B5D5-BB05-1318-180B88002CA4</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Payment_date" id="CC3EE43D-E3E3-DAF3-528C-B28A698D398F">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-16 20:22:02 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 09:05:53 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Submitted_by" id="7C2AA257-F8D7-6D0E-0818-47471697B7CC">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-16 20:22:25 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 09:06:25 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Payment_status" id="FD674949-33AA-6928-C435-CF82204C7D63">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-17 10:55:49 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 09:06:41 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="1645967B-3D0F-BBA7-A7A4-8C4C30FBFB7E" name="Cheque_PK">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-16 20:21:48 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-01 05:28:25 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>B4336FD0-3D5D-F28E-0936-39E858601991</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

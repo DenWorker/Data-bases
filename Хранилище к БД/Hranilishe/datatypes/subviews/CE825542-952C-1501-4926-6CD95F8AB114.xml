@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.datatypes.DPVDataTypes" id="CE825542-952C-1501-4926-6CD95F8AB114">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-09-23 04:49:52 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-09-23 04:49:52 UTC</changedTime>
+   <autoRoute>false</autoRoute>
+   <boxInbox>true</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <notation>1</notation>
+   <showNamesOnly>false</showNamesOnly>
+   <objectViews>
+      <OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="47E390DE-0671-C4B1-8428-0F45CBEE18F8" otype="StructuredType" vid="86607004-B12C-8FBC-BE4C-95CF23264561">
+         <bounds x="20" y="20" width="100" height="100"/>
+      </OView>
+   </objectViews>
+</Diagram>

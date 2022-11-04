@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="3257E2EB-2F35-4FFF-8C8E-A7A334EEFB4B" directorySegmentName="seg_0" name="Price_history">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+   <generatorID>DFC0D4A2-2A64-D184-7064-150B371D9EB4</generatorID>
+   <ownerDesignName>OPLATA</ownerDesignName>
+   <pkName>Price_history_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Row_code_price_history" id="8416E25A-5DB2-E8CF-7D88-68D720CB5F5C">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>46624A28-0673-D4D9-3231-85ADA648CB37</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>5</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Service_code" id="871C96E5-6C48-ECE6-4F85-04DF66F58F05">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>B482FA42-DBB9-8C77-FEC8-B4D3E398AFAA</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>3</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>EB60C532-F5F4-B395-F085-30E8A732EE5F</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="37211BB4-AFF5-654B-4387-2CF5BCE232AB" referredColumn="EB60C532-F5F4-B395-F085-30E8A732EE5F"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Cost_1" id="43ECF415-A24D-9908-578E-69D4A92B3E9E">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>FD549137-1F07-CD3C-38D1-33DE20FB2C04</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Cost_begin" id="6579ACDA-EA98-A578-9696-43C7121437F3">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>F2BC23FB-F8FE-703B-FBC5-4D25DD958D18</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Cost_end" id="BC04000A-A23D-6436-F37B-F46C89AA7BDE">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>85816342-9D3C-88E8-AC99-1246E8F67280</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F925508A-DC8F-E54F-D578-19B4EF8C1E2C" name="Price_history_PK">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>AE6D0C78-D8BB-DE10-8342-C739F39F110F</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="8416E25A-5DB2-E8CF-7D88-68D720CB5F5C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="B5F12A1E-1725-E86F-A8DF-2C1A0A627D09" name="Relation_12">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+         <generatorID>B2C2DCDF-15C7-8E33-21E4-2548B268B574</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="871C96E5-6C48-ECE6-4F85-04DF66F58F05"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

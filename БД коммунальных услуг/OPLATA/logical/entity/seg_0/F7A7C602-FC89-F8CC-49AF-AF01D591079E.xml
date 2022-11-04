@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="F7A7C602-FC89-F8CC-49AF-AF01D591079E" directorySegmentName="seg_0" name="Apartment">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-03-16 19:59:18 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-01 16:09:19 UTC</changedTime>
+   <ownerDesignName>OPLATA</ownerDesignName>
+   <pkName>Квартира_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Apartment_code" id="521D9986-B5D5-BB05-1318-180B88002CA4">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-16 19:59:43 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 08:49:52 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="House_code" id="4537A5CF-73DC-1BD6-8E15-7F467D97BF3E">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-17 11:01:09 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 08:50:27 UTC</changedTime>
+         <generatorID>AE872054-F7C1-4B85-1D0E-7B66F46AF779</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>18930416-C093-AE4E-8966-26340B60234A</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Apartment_number" id="809E31B3-E57D-8C4C-66CD-8A245C3A78AA">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-22 07:30:42 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 08:51:32 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Full_name_tenant" id="83C6FDEB-7B3B-944F-1BC3-DFB3A46373B2">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-16 20:00:52 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 08:52:43 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>40</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Area_apartment" id="2F6C8691-07FB-4112-6DCA-B3FCBCE30A5F">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-16 20:01:49 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 08:53:15 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>5</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Number_residents" id="9EFC7E0F-BB43-3F5D-8712-0A83BCE79158">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-16 20:02:27 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 08:53:58 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>3</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Payment_status" id="50609728-9861-6EEB-F2D1-AD2AA2B54613">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-04-20 08:31:11 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 08:54:23 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="C7B2BA2A-7DEA-73B6-9219-FB95EFF22C23" name="Apartment_PK">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-03-16 20:00:18 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-15 08:58:55 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>521D9986-B5D5-BB05-1318-180B88002CA4</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

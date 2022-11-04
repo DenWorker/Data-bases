@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A3B249F7-856F-A74D-FAAE-4F9DA056FA27" directorySegmentName="seg_0" name="Flat_history">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+   <generatorID>901247EC-3CCD-55BD-3EDB-E4517F326307</generatorID>
+   <ownerDesignName>Hranilishe</ownerDesignName>
+   <pkName>Flat_history_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Code_flat_history" id="E6CE56FD-F01A-7A7E-960A-41902A5C5F9C">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>B143F67C-49F0-1EA0-346D-83E601700B59</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Apartment_code4" id="50ACA1A1-D674-E43D-F72B-F709B0EF7A91">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>882F4F86-82A2-ADE3-93D2-89C1FC0E4ACE</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <delegate>D81FDD0E-35CA-99A7-5077-F37080C5C1A6</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="47139461-BD8A-62BE-D4AE-657796D68E9F" referredColumn="D81FDD0E-35CA-99A7-5077-F37080C5C1A6"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Full_name_tenant4" id="D35DF473-A438-473F-6B7E-17D5555BB7BC">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>50175C27-4B86-2DF6-56F2-F9D3E690EC41</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Date_begin" id="7E40456A-E52D-9C27-789F-B597476175E9">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>931BEF81-84D3-D179-15A1-73F51112FE8F</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Date_end" id="F06193C9-685E-9E7F-B561-4558E1CCF49D">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>3C256C62-CACE-4D84-6177-8328A46983E5</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7B59EB78-8476-BD46-7287-80D3119BF99D" name="Flat_history_PK">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>A9F0662E-716F-1430-7F96-EDCF9614B177</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="E6CE56FD-F01A-7A7E-960A-41902A5C5F9C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="D26F900D-9064-E599-EFB9-AD4D3D24ADFA" name="Relation_4">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>05BC4262-AD1B-1CF3-C835-DD8BC6FF64CA</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="50ACA1A1-D674-E43D-F72B-F709B0EF7A91"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

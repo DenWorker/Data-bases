@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="EE04A7DF-B6E2-2A2B-A4BC-1DDDB5D53561" directorySegmentName="seg_0" name="Apartment_HRAN">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-09-23 05:01:02 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-03 11:11:12 UTC</changedTime>
+   <ownerDesignName>Hranilishe</ownerDesignName>
+   <pkName>Apartment_PKv1</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Apartment_code4" id="2C84E754-C235-C809-2B6E-5A912ED0DB53">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-09-23 05:01:02 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-23 05:12:01 UTC</changedTime>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="House_code4" id="5365E2B6-3917-6728-7AA3-6BD113F4C439">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-09-23 05:01:02 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-23 05:01:02 UTC</changedTime>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Apartment_number4" id="B5B1816D-A4E4-7258-82FC-4D3D5CEFA984">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-09-23 05:01:02 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-23 05:01:02 UTC</changedTime>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Full_name_tenant4" id="D41BF705-4039-11FF-9847-83665B68DBAD">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-09-23 05:01:02 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-23 05:01:02 UTC</changedTime>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>40</dataTypeSize>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Area_apartment4" id="BC429E96-4005-6FE4-410B-DB3BD52BA548">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-09-23 05:01:02 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-23 05:01:02 UTC</changedTime>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>5</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Number_residents4" id="28DCE29C-5CFA-4F4C-C61D-88EBA29B232A">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-09-23 05:01:02 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-23 05:01:02 UTC</changedTime>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>3</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Payment_status4" id="FA01B5AE-A348-E0E5-C390-110535317D28">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-09-23 05:01:02 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-23 05:01:02 UTC</changedTime>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="E5D9AE3A-D795-4079-FE07-0911080CE893" name="Apartment_PKv1">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-09-23 05:13:30 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-09-23 05:13:30 UTC</changedTime>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>2C84E754-C235-C809-2B6E-5A912ED0DB53</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="E250FA05-1E08-3C5D-46D9-283A0B5BA07E" directorySegmentName="seg_0" name="Relation_10">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-10-02 05:58:55 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-02 05:58:55 UTC</changedTime>
+   <generatorID>168656A9-1E57-3DCA-6B54-588529B475DE</generatorID>
+   <ownerDesignName>OPLATA</ownerDesignName>
+   <containerWithKeyObject>F8E7CA10-901D-855B-EAA1-2E2A9E3446BD</containerWithKeyObject>
+   <deleteRule>SET NULL</deleteRule>
+   <localFKIndex>38525803-23A0-00F3-4387-2B38F0D7A313</localFKIndex>
+   <keyObject>ADF7479A-27C6-F7E0-31C2-7C1557E9E19B</keyObject>
+   <mandatory>false</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

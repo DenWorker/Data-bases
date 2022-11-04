@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="08DCFD87-013B-4502-CE5B-653701DCD29E" directorySegmentName="seg_0" name="Price_history">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+   <generatorID>2A615075-B3A4-B9EC-B30A-4D807E811D3E</generatorID>
+   <ownerDesignName>Hranilishe</ownerDesignName>
+   <pkName>Price_history_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Row_Code_Price_history" id="ED9B9996-5ABC-7D3C-C954-FC1DA79B4A53">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>499B63AD-CA43-C358-998C-430402ED7507</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Cost" id="A5DA689B-10D7-C8BE-5C2F-B46AD77310EF">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>65CAA624-A746-D354-5E35-BE7CCD70802C</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Cost_begin" id="9F1D9723-17F3-C3AB-7DBC-28CEB792594A">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>F1F19525-0A8C-17BA-7CD4-871915DA4C78</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Cost_end" id="5D35107E-BAE1-C456-8215-06E5816B5096">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>B03FF94D-D26B-D4C8-6A3F-C585457849E9</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="6A767582-8D5D-1AB3-F1B3-C44D6644B368" name="Price_history_PK">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>45CD062B-9F78-73FD-5CD7-E3F46DB520F6</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="ED9B9996-5ABC-7D3C-C954-FC1DA79B4A53"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

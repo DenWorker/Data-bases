@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="DFC0D4A2-2A64-D184-7064-150B371D9EB4" directorySegmentName="seg_0" name="Price_history">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-10-01 15:58:39 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-02 05:40:59 UTC</changedTime>
+   <ownerDesignName>OPLATA</ownerDesignName>
+   <pkName>Price_history_PK</pkName>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Row_code_price_history" id="46624A28-0673-D4D9-3231-85ADA648CB37">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-01 15:58:59 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-01 16:11:29 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>5</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name=" Service_code" id="B482FA42-DBB9-8C77-FEC8-B4D3E398AFAA">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-01 16:03:17 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-01 16:03:17 UTC</changedTime>
+         <generatorID>B2C2DCDF-15C7-8E33-21E4-2548B268B574</generatorID>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>5D1682CF-5E48-1DB8-70CF-9FFD7D88A249</referedAttribute>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>3</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Cost_1" id="FD549137-1F07-CD3C-38D1-33DE20FB2C04">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-01 16:00:35 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-01 16:01:59 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Cost_begin" id="F2BC23FB-F8FE-703B-FBC5-4D25DD958D18">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-01 16:01:59 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-01 16:03:40 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="Cost_end" id="85816342-9D3C-88E8-AC99-1246E8F67280">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-01 16:02:29 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-01 16:03:41 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="AE6D0C78-D8BB-DE10-8342-C739F39F110F" name="Price_history_PK">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-01 16:00:01 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-01 16:03:17 UTC</changedTime>
+         <ownerDesignName>OPLATA</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>46624A28-0673-D4D9-3231-85ADA648CB37</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="2CFFC504-CDFF-2695-A09E-A1D70E2A1CB6" name="Apartment" seqName="seg_0"/>
+   <object objectType="Table" objectID="E1DB1DB5-9E96-0FA4-6797-ED9EFEA1973C" name="Cheque" seqName="seg_0"/>
+   <object objectType="Table" objectID="EBC96382-33F3-C09E-E17D-85CCFFED6BD8" name="Flat_history" seqName="seg_0"/>
+   <object objectType="Table" objectID="6C78E452-EFAD-D425-5D80-66096F247545" name="Houses" seqName="seg_0"/>
+   <object objectType="Table" objectID="F2FE9FF4-E062-FD48-FA8C-D3545F20D7D1" name="Monthly_invoice" seqName="seg_0"/>
+   <object objectType="Table" objectID="3257E2EB-2F35-4FFF-8C8E-A7A334EEFB4B" name="Price_history" seqName="seg_0"/>
+   <object objectType="Table" objectID="3A076B02-2727-BF86-E6F0-1549DEC869E5" name="Price_list" seqName="seg_0"/>
+   <object objectType="Table" objectID="022C972A-07C9-3C31-5EEE-AEBF6C292D8A" name="Service_history" seqName="seg_0"/>
+   <object objectType="Table" objectID="F8E7CA10-901D-855B-EAA1-2E2A9E3446BD" name="Services" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E250FA05-1E08-3C5D-46D9-283A0B5BA07E" name="Relation_10" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DC67D880-42E9-A9A1-6B32-6C8C5F372B18" name="Relation_11" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="37211BB4-AFF5-654B-4387-2CF5BCE232AB" name="Relation_12" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A5DBB793-1288-197C-0C35-90F751E88D90" name="Relation_13" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="039DF82B-F614-64A3-26EB-9FA13A1214E0" name="Relation_14" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5C4522D2-A83F-8F1E-528B-72A98577E434" name="Relation_15" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="38F5B34A-F123-0CBC-1D74-72FA3F4601EF" name="Relation_2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="39D1A97D-62D9-BD90-FBD6-BC85EB9C48A9" name="Relation_7" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1FFB933C-A547-98E6-05DA-B28A466BF7A1" name="Relation_8" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="46736760-9CFC-B1AB-ECA3-3FB0BA4F8FA3" name="Relation_9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

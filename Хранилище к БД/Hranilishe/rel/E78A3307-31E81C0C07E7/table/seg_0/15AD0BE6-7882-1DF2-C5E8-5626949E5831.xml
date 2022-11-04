@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="15AD0BE6-7882-1DF2-C5E8-5626949E5831" directorySegmentName="seg_0" name="Apartment_HRAN">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+   <generatorID>EE04A7DF-B6E2-2A2B-A4BC-1DDDB5D53561</generatorID>
+   <ownerDesignName>Hranilishe</ownerDesignName>
+   <pkName>Apartment_PKv1</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Apartment_code4" id="D81FDD0E-35CA-99A7-5077-F37080C5C1A6">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>2C84E754-C235-C809-2B6E-5A912ED0DB53</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="House_code4" id="D5FD2BE0-9E7D-7B4D-CE9E-864054DF0E78">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>5365E2B6-3917-6728-7AA3-6BD113F4C439</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Apartment_number4" id="D14C1A84-DA5C-6FD6-9D78-F01F92FF32CE">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>B5B1816D-A4E4-7258-82FC-4D3D5CEFA984</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>4</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Full_name_tenant4" id="99CCF1E5-CC03-BA28-64D7-1ABD5B99663E">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>D41BF705-4039-11FF-9847-83665B68DBAD</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>40</dataTypeSize>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Area_apartment4" id="1B219164-29A9-E1AA-5C09-125DD06A8BFC">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>BC429E96-4005-6FE4-410B-DB3BD52BA548</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>5</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Number_residents4" id="49B77CCC-AEE7-B435-2AEE-FF7F76FCDD45">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>28DCE29C-5CFA-4F4C-C61D-88EBA29B232A</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>3</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Payment_status4" id="6DDAEF11-FA8B-76C5-FC19-C13B0FA222F3">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>FA01B5AE-A348-E0E5-C390-110535317D28</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypePrecision>8</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5A188129-41FC-C00B-9747-C2849B8E64E0" name="Apartment_PKv1">
+         <createdBy>ivano</createdBy>
+         <createdTime>2021-10-03 11:15:55 UTC</createdTime>
+         <changedBy>ivano</changedBy>
+         <changedTime>2021-10-03 11:15:55 UTC</changedTime>
+         <generatorID>E5D9AE3A-D795-4079-FE07-0911080CE893</generatorID>
+         <ownerDesignName>Hranilishe</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="D81FDD0E-35CA-99A7-5077-F37080C5C1A6"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

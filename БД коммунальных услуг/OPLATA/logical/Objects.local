@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="5475A88C-DB91-0AF6-E8AA-FCD7B16ACB71" name=" Monthly_invoice" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F7A7C602-FC89-F8CC-49AF-AF01D591079E" name="Apartment" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F207781D-F0E2-144B-910F-4393DE46F945" name="Cheque" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B0408414-790A-250D-BE78-E3146D3E2B8B" name="Flat_history" seqName="seg_0"/>
+   <object objectType="Entity" objectID="12D839F5-C306-663B-2CB3-35A0F276CDD2" name="Houses" seqName="seg_0"/>
+   <object objectType="Entity" objectID="DFC0D4A2-2A64-D184-7064-150B371D9EB4" name="Price_history" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9CFD5789-957E-0714-2566-879BA6BF9030" name="Price_list" seqName="seg_0"/>
+   <object objectType="Entity" objectID="7BAE4ED3-C387-A5A3-3BC6-815EA3558F55" name="Service_history" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B8F584E9-6F2C-0B50-75BC-D7FAF7C18192" name="Services" seqName="seg_0"/>
+   <object objectType="Relation" objectID="168656A9-1E57-3DCA-6B54-588529B475DE" name="Relation_10" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B838D81C-BEF0-1975-04FE-ABFEAE549CEB" name="Relation_11" seqName="seg_0"/>
+   <object objectType="Relation" objectID="B2C2DCDF-15C7-8E33-21E4-2548B268B574" name="Relation_12" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C0CF9D0B-E13B-4551-C3A6-3D9BBA4F1553" name="Relation_13" seqName="seg_0"/>
+   <object objectType="Relation" objectID="67F41430-F389-325C-727F-F286D5AE97D2" name="Relation_14" seqName="seg_0"/>
+   <object objectType="Relation" objectID="BE69BD8C-6002-C496-E772-BC18C05AD4CD" name="Relation_15" seqName="seg_0"/>
+   <object objectType="Relation" objectID="6AFCC4BB-3EA1-7C58-F0EB-079D922DAD85" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AE872054-F7C1-4B85-1D0E-7B66F46AF779" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="870E3952-0CCF-F8FF-866F-648E8C304272" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8C2604AF-7263-120D-4064-528A33B98895" name="Relation_9" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

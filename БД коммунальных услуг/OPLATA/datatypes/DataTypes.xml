@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="DE8085DB-ABE5-7C12-EA28-1CFF3B362F54" mainViewID="2EE9E067-4401-BA8C-4269-63C68F5EA4FD">
+   <createdBy>ivano</createdBy>
+   <createdTime>2021-03-16 19:58:31 UTC</createdTime>
+   <changedBy>ivano</changedBy>
+   <changedTime>2021-03-16 19:58:31 UTC</changedTime>
+   <ownerDesignName>OPLATA</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</DataTypesDesign>
